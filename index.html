@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interface V2.0</title>
+<!-- Link to use Font Awesome CSS for Symbols -->
+<script src="https://use.fontawesome.com/ec21c64249.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet">
+
+<style type="text/css">
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+}
+li{
+	font-family: 'Roboto Mono', monospace;
+}
+</style>
+
+<style>
+#change {
+    background-color: red;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    color: white;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: rgb(38,38,38);}
+    20%  {background-color: rgb(171,42,55);}
+    40%  {background-color: rgb(8,67,147);}
+    60% {background-color: rgb(26,140,112);}
+    80% {background-color: rgb(232,0,75);}
+    100% {background-color: rgb(255,200,0);}
+}
+
+
+/* Standard syntax */
+@keyframes example {
+	0%   {background-color: rgb(38,38,38);}
+    20%  {background-color: rgb(171,42,55);}
+    40%  {background-color: rgb(8,67,147);}
+    60% {background-color: rgb(26,140,112);}
+    80% {background-color: rgb(232,0,75);}
+    100% {background-color: rgb(255,200,0);}
+}
+</style>
+</head>
+<body style="background-color: rgb(217, 217, 217)"">
+<div class="container" style="padding-top: 10px;">
+
+<!-- Jumbotron -->
+<div class="jumbotron" id="change">
+  <h1>Interface V2.0</h1>
+  <p style="font-family: 'Roboto Mono', monospace; padding-top: 9px;">At The Interface Of Pure Awesomeness !</p>
+</div>
+<!-- End Of Jumbotron -->
+
+<!-- NavBar -->
+<nav class="navbar navbar-default navbar-static-top" style="font-size: 18px;padding-top:1px;padding-bottom:1px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="KHMD" src="KHMD.png" height="25px" width="25px">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Event-1</a></li>
+            <li><a href="#">Event-2</a></li>
+            <li><a href="#">Event-3</a></li>
+            <li><a href="#">Event-4</a></li>
+            <li><a href="#">Event-5</a></li>
+          </ul>
+        </li>
+        <li><a href="#">The Team</a></li>
+        <li><a href="#">Follow Us</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End Of Nav Bar-->
+<div class="well well-lg" style="font-size: 16px;">The Content Comes In Here.</div>
+
+
+</div> <!-- End Of Container -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
