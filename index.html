@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- This Website Has Been Created By Rishit Chaudhary -->
 <title>Interface V2.0</title>
+<!-- Favicon Image-->
+<link rel="icon" 
+      type="image/ico" 
+      href="favicon.ico">
+
 <!-- Link to use Font Awesome CSS for Symbols -->
-<script src="https://use.fontawesome.com/ec21c64249.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -20,8 +26,37 @@ body{
 h1{
 	font-family: 'Roboto Slab', serif;
 }
+h2{
+  font-family: 'Roboto Slab', serif;
+}
 li{
 	font-family: 'Roboto Mono', monospace;
+}
+#heavy{
+  font-family: 'Roboto Slab', serif;
+}
+#light{
+  font-family: 'Roboto Mono', monospace;
+}
+#medium{
+  font-family: 'Roboto', sans-serif;
+}
+#credits{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+.container .jumbotron {
+  border-radius: 0px;
+}
+#special {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+    border-color: #333333;
 }
 </style>
 
@@ -56,19 +91,28 @@ li{
     80% {background-color: rgb(232,0,75);}
     100% {background-color: rgb(255,200,0);}
 }
+
+#material{
+  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.25), 5px 15px 10px rgba(0, 0, 0, 0.25);
+}
+
+
 </style>
 </head>
 <body style="background-color: rgb(217, 217, 217)"">
 <div class="container" style="padding-top: 10px;">
 
 <!-- Jumbotron -->
+<div id="material">
 <div class="jumbotron" id="change">
   <h1>Interface V2.0</h1>
   <p style="font-family: 'Roboto Mono', monospace; padding-top: 9px;">At The Interface Of Pure Awesomeness !</p>
 </div>
+</div>
 <!-- End Of Jumbotron -->
 
 <!-- NavBar -->
+<div id="material">
 <nav class="navbar navbar-default navbar-static-top" style="font-size: 18px;padding-top:1px;padding-bottom:1px;">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -90,11 +134,17 @@ li{
       	<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Events <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Event-1</a></li>
-            <li><a href="#">Event-2</a></li>
-            <li><a href="#">Event-3</a></li>
-            <li><a href="#">Event-4</a></li>
-            <li><a href="#">Event-5</a></li>
+            <li><a href="#">iQuiz</a></li>
+            <li><a href="#">Elastic Reality</a></li>
+            <li><a href="#">Flash Talks</a></li>
+            <li><a href="#">EDM 101- KEDM</a></li>
+            <li><a href="#">Game Design</a></li>
+            <li><a href="#">Windows Ninja Cat Event</a></li>
+            <li><a href="#">Spotlight</a></li>
+            <li><a href="#">Think Tank Project Display</a></li>
+            <li><a href="#">Gaming Tournament</a></li>
+            <li><a href="#">Curriculum-based Project Display</a></li>
+            <li><a href="#">Sandbox</a></li>
           </ul>
         </li>
         <li><a href="#">The Team</a></li>
@@ -104,10 +154,382 @@ li{
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</div>
 <!-- End Of Nav Bar-->
-<div class="well well-lg" style="font-size: 16px;">The Content Comes In Here.</div>
+
+<div class="page-header">
+  <h1>An Army Of Events : <small style="font-family: 'Roboto Mono', monospace;"> In All Shapes & Sizes ... That Will Blow You Away !</small></h1>
+</div>
+
+<div class="row">
+<div class="col-sm-6 col-md-4">
+<div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-question-circle-o" aria-hidden="true"></i> iQuiz</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="quiz.png" alt="QUIZ LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">Aabharan Hemanth, Aniruddha Mysore &</p>
+        <p id="heavy"> Anurag Muttur</p></center>
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">As the tradition goes each year, even this year we have the prestigious, annual technology quiz for the all the quizzards of Kumarans out there.</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-trophy" aria-hidden="true"></i> Its Time To Play The Game ! <i class="fa fa-trophy" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Participate ?</p>
+          <p id="light">Any one from classes 8-12</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">Prelims will be held in the 1st week of November.</p>
+          <br>
+          <p id="heavy">Any Tips ?</p>
+          <p id="light">Well ... Be Clam & Read Up As Much As Possible ... and "Expect The Unexpected"</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+  <div class="col-sm-6 col-md-4">
+  <div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-camera-retro" aria-hidden="true"></i> Elastic Reality</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="studio.jpg" alt="STUDIO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">TBA</p></center>
+        <!--<p id="heavy"></p></center>-->
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">Come and amaze us all by making a mind-blowing video on a given topic in teams of 2. Participants have to bring their own laptops and cameras.</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Lights .. Camera .. Action <i class="fa fa-video-camera" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Participate ?</p>
+          <p id="light">Any one from classes 8-12</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">Any Restrictions On What I Can Use ?</p>
+          <p id="light">Nope, teams are free to use any tools they want, but they are solely responsible for their tools.</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+  <div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-microphone" aria-hidden="true"></i> Flash Talks</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="stage.jpg" alt="STAGE" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">KHMD Members</p></center>
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">"Dynamites come in small packages" - These talks prove just that. They pack loads of inspiration on hot topics in not more than 25 minutes. </p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-female" aria-hidden="true"></i> Everyone's Invited <i class="fa fa-male" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Attend ?</p>
+          <p id="light">Anyone</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">How Long Is Each Talk ?</p>
+          <p id="light">Not more than 25 minutes .... hey that's less time than an average pizza delivery ! <i class="fa fa-cutlery" aria-hidden="true"></i></p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+<div class="col-sm-6 col-md-4">
+<div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-music" aria-hidden="true"></i> EDM 101</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="edm.jpg" alt="EDM LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
+ KEDM</p></center>
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">Conducted by our sister organisation KEDM, this 30 minute talk + dance will tell you all you need to know about electronic music and how to make it.</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Club Life By KEDM <i class="fa fa-music" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Participate ?</p>
+          <p id="light">Any one from classes 8-12</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">Prelims will be held in the 1st week of November.</p>
+          <br>
+          <p id="heavy">Any Tips ?</p>
+          <p id="light">Well ... Be Clam & Read Up As Much As Possible ... and "Expect The Unexpected"</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+  <div class="col-sm-6 col-md-4">
+  <div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+   <center> <h3 class="panel-title"><b><h1> Gaming <i class="fa fa-gamepad" aria-hidden="true"></i> Tournament</h1></b></h3></center>
+  </div>
+  <div class="panel-body">
+      <img src="gaming.jpg" alt="GAMING LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">TBA</p></center>
+        <!--<p id="heavy"></p></center>-->
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">Show off your gaming supremacy in a tournament-styled event and battle against other gamers to fight for supremacy !</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Lights .. Camera .. Action <i class="fa fa-video-camera" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Participate ?</p>
+          <p id="light">Any one from classes 8-12</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">What Are The Games This Year ?</p>
+          <p id="light">This year we have 2 amazing games for you guys to enjoy playing, and they are FIFA, COD (a.k.a. Call Of Duty)</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+  <div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Game Design</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="games.jpg" alt="  GAMES LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">Ish Bosamiya</p></center>
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">
+            Get ready to have your mind blown away as Ish designs mind-boggling graphics for games right in front of your eyes. If you ever wanted to know how AAA games like Battlefield 1, Project CARS or Call Of Duty are designed, then this is your one stop shop for all things game design.</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-gamepad" aria-hidden="true"></i> Gamers Victorious <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Attend ?</p>
+          <p id="light">Anyone</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">In The Auditorium.</p>
+          <br>
+          <p id="heavy">Is This Event A Talk Or A Hands On Workshop ?</p>
+          <p id="light">This Event is a talk and all major worksshops are being held at a later date after Interface V2.0.</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+<div class="col-sm-6 col-md-4">
+<div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-bolt" aria-hidden="true"></i> Spotlight</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="vlog.png" alt="VLOG LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">TBA</p></center>
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">Make a VLOG on a tech topic we will give you. This will be an online competition. 
+Register here!</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-video-camera" aria-hidden="true"></i> Hello And Welcome To Spotlight VLOGS <i class="fa fa-bolt" aria-hidden="true"></i>
+</p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Participate ?</p>
+          <p id="light">Any one from classes 8-12</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">Any Tips ?</p>
+          <p id="light">Be Clam & Smile For The Camera <i class="fa fa-smile-o" aria-hidden="true"></i> !</p>
+          <br>
+          <p id="heavy">Any Restrictions On What I Can Use ?</p>
+          <p id="light">Nope, teams are free to use any tools they want, but they are solely responsible for their tools.</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+  <div class="col-sm-6 col-md-4">
+  <div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1>Think Tank <i class="fa fa-university" aria-hidden="true"></i> Project Display</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="thinktank.png" alt="THINK TANK LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">TBA</p></center>
+        <!--<p id="heavy"></p></center>-->
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">
+From sanitation to poverty to increasing productivity and living conditions, nearly all problems can be solved using technology. Come witness projects that aim to do just this. This Event is Conducted in partnership with Reap Benefit and UNEP's Youth Programme.</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-cogs" aria-hidden="true"></i> My Idea To Change The World Is .... <i class="fa fa-video-camera" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Participate ?</p>
+          <p id="light">Any one from classes 8-12</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">Any Restrictions On What I Can Use ?</p>
+          <p id="light">Nope, teams are free to use any tools they want, but they are solely responsible for their tools.</p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+  <div id="material">
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center><b><h1><i class="fa fa-desktop" aria-hidden="true"></i> Curriculum-based Project display</h1></b></center></h3>
+  </div>
+  <div class="panel-body">
+      <img src="project.png" alt="PROJECT LOGO" class="img-responsive">
+      <div class="caption">
+        <h3 id="heavy"><i class="fa fa-users" aria-hidden="true"></i> Hosts :</h3>
+        <center><p id="heavy">Anonymous</p></center>
+        <b><h3 id="heavy"><i class="fa fa-info-circle" aria-hidden="true"></i> Event Description :</h3></b>
+          <center><p id="light">
+            The annual project display based on software taught in school, but with a twist. This time it's a competition and the judge could be anyone in the audience! Best 12 projects from each grade will be chosen by the teachers. Corel Draw for 8th, Photoshop for 9th and Flash for 10th.
+</p>
+          <br>
+          <b><p id="light" style="font-size: 17px;"><i class="fa fa-users" aria-hidden="true"></i> Let The Best Class Win <i class="fa fa-flag-checkered" aria-hidden="true"></i></p></b></center>
+          <b><h3 id="heavy"><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ :</h3></b>
+          <p id="heavy">Who Can Attend ?</p>
+          <p id="light">Anyone ... but only students selected form Classes 8th, 9th and 10th, can participate.</p>
+          <br>
+          <p id="heavy">When's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+          <p id="heavy">What Can The Participants Gain ?</p>
+          <p id="light">Pure Bragging Rights <i class="fa fa-hand-peace-o" aria-hidden="true"></i></p>
+          <br>
+          <p id="heavy">Where's The Event ?</p>
+          <p id="light">TBA</p>
+          <br>
+        <p align = "right"><a href="#" class="btn btn-success btn-lg btn-block" role="button">Join <i class="fa fa-sign-in" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<!-- Details to add :-
+
+
+
+
+
+Sandbox- 
+Projects by KHMD members displayed around the campus. 
+Register to display your project here. -->
+<hr id="special">
+<p id="credits">Created By Rishit Chaudhary.</p>
 </div> <!-- End Of Container -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
